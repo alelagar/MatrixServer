@@ -69,10 +69,10 @@ public class PlayerMove : NetworkBehaviour
     }
 
     [ServerRpc]
-    private void MensajeServerRpc(ulong clientId)
+    private void MensajeServerRpc(ulong clientId, string msj)
     { 
         if (!IsServer) return;
-        Debug.Log("Server ejecuta");
+
         ClientRpcParams clientRpcParams = new ClientRpcParams
         {
             Send = new ClientRpcSendParams
@@ -80,34 +80,33 @@ public class PlayerMove : NetworkBehaviour
                 TargetClientIds = new ulong[]{clientId}
             }
         };
-        int n = 8;
-        MensajeClientRpc(n, clientRpcParams);
+
+        MensajeClientRpc(msj, clientRpcParams);
     }
     
 
     [ClientRpc]
-    private void MensajeClientRpc(int  n, ClientRpcParams clientRpcParams = default)
+    private void MensajeClientRpc(string  msj, ClientRpcParams clientRpcParams = default)
     {
         if (IsOwner) return;
 
-        Debug.Log(n);
+        Debug.Log(msj);
     }
 
     public void MandarMensaje()
     {
-        GameObject t = GameObject.FindWithTag("transformCuerpo");
 
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out RaycastHit hit, distancia))
+        if (Physics.Raycast(transform.position + transform.up * 0.75f, transform.TransformDirection(Vector3.forward), out RaycastHit hit, distancia))
         {
             var player = hit.collider.GetComponent<NetworkObject>();
     
             if(player != null)
             {
                 ulong playerId = hit.collider.GetComponent<NetworkObject>().OwnerClientId;
-                Debug.Log("OwnerId "+ playerId);
+                
                 string msj = "Este es el mensaje";
 
-                MensajeServerRpc(playerId);
+                MensajeServerRpc(playerId, msj);
             }
         }
     }
