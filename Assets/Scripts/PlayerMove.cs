@@ -7,8 +7,7 @@ using MLAPI.Messaging;
 
 public class PlayerMove : NetworkBehaviour
 {
-    // Start is called before the first frame update
-    [Header("References")]
+    
     [SerializeField] private CharacterController controller = null;
     public float speed = 2.0F;
     public float rotationSpeed=250f;
@@ -18,63 +17,99 @@ public class PlayerMove : NetworkBehaviour
     public Camera cam;
     private Vector3 moveDirection = Vector3.zero;
 
+    private float distancia = 1.5f;
+
     private float  x, y;
 
-        public void Start() 
+    public void Start() 
     {
-        // IF I'M THE PLAYER, STOP HERE (DON'T TURN MY OWN CAMERA OFF)
+        // Si es mi script, retorno
         if (IsOwner) return;
  
-        // DISABLE CAMERA HERE (BECAUSE THEY ARE NOT ME)
+        // Apago la camara y sonido, porque no son mios
+        cam.GetComponent<AudioListener> ().enabled  =  false;
         cam.enabled = false;
     }
-
 
     private void Update()
     {
         if(!IsOwner) {return;}
+        
+        Movimiento();
 
+        if(Input.GetKeyDown(KeyCode.F))
+        {
+            if(IsLocalPlayer)
+            {
+                MandarMensaje();
+            }
+        }
+    }
+
+    private void Movimiento()
+    {
         if (controller.isGrounded) {
-            y= Input.GetAxis("Vertical");
+            y = Input.GetAxis("Vertical");
             x = Input.GetAxis("Horizontal");
             moveDirection = new Vector3(0, 0, y);
             moveDirection = transform.TransformDirection(moveDirection);
             moveDirection *= speed;
             animator.SetFloat("VelX", x);
             animator.SetFloat("VelY", y);
-            
-
 
             if (Input.GetButton("Jump"))
                 moveDirection.y = jumpSpeed;
             
         }
+
         moveDirection.y -= gravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
         transform.Rotate(0, x * rotationSpeed * Time.deltaTime, 0);
 
+    }
 
-        if(Input.GetKeyDown(KeyCode.F))
+    [ServerRpc]
+    private void MensajeServerRpc(ulong clientId)
+    { 
+        if (!IsServer) return;
+        Debug.Log("Server ejecuta");
+        ClientRpcParams clientRpcParams = new ClientRpcParams
+        {
+            Send = new ClientRpcSendParams
             {
-                MandarMensajeServerRpc();
+                TargetClientIds = new ulong[]{clientId}
             }
-
+        };
+        int n = 8;
+        MensajeClientRpc(n, clientRpcParams);
     }
-
-        [ServerRpc]
-    public void MandarMensajeServerRpc()
-    {
-        MandarMensajeClientRpc();
-    }
+    
 
     [ClientRpc]
-
-    public void MandarMensajeClientRpc()
+    private void MensajeClientRpc(int  n, ClientRpcParams clientRpcParams = default)
     {
-        if(IsOwner){return;}
+        if (IsOwner) return;
 
-        Debug.Log("Me llego un mensaje!");
-        
+        Debug.Log(n);
+    }
+
+    public void MandarMensaje()
+    {
+        GameObject t = GameObject.FindWithTag("transformCuerpo");
+
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out RaycastHit hit, distancia))
+        {
+            var player = hit.collider.GetComponent<NetworkObject>();
+    
+            if(player != null)
+            {
+                ulong playerId = hit.collider.GetComponent<NetworkObject>().OwnerClientId;
+                Debug.Log("OwnerId "+ playerId);
+                string msj = "Este es el mensaje";
+
+                MensajeServerRpc(playerId);
+            }
+        }
     }
 
 }
