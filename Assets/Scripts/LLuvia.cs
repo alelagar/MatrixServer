@@ -34,8 +34,6 @@ public class LLuvia : NetworkBehaviour
                 ActivarLluviaClientRpc();    
             }
         }
-        
-       
     }
 
     [ClientRpc]

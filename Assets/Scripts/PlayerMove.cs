@@ -65,7 +65,7 @@ public class PlayerMove : NetworkBehaviour
         moveDirection.y -= gravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
         transform.Rotate(0, x * rotationSpeed * Time.deltaTime, 0);
-
+        
     }
 
     [ServerRpc]
@@ -109,6 +109,10 @@ public class PlayerMove : NetworkBehaviour
                 MensajeServerRpc(playerId, msj);
             }
         }
+    }
+
+    public bool host(){
+        return IsHost;
     }
 
 }
