@@ -55,6 +55,9 @@
      <Compile Include="Assets\Scripts\LLuvia.cs" />
      <Compile Include="Assets\Scripts\PlayerMove.cs" />
      <Compile Include="Assets\Scripts\DiaNoche.cs" />
+     <Compile Include="Assets\Scripts\Chat.cs" />
+     <Compile Include="Assets\Scripts\NetworkManagerRasa.cs" />
+     <Compile Include="Assets\Scripts\CanvasCont.cs" />
  <Reference Include="UnityEngine">
  <HintPath>/home/felix/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

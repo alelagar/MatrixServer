@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using MLAPI;
 using MLAPI.Messaging;
@@ -17,9 +15,11 @@ public class PlayerMove : NetworkBehaviour
     public Camera cam;
     private Vector3 moveDirection = Vector3.zero;
 
-    private float distancia = 1.5f;
+    private float distancia = 2.5f;
 
     private float  x, y;
+
+    private bool mov = true;
 
     public void Start() 
     {
@@ -31,19 +31,26 @@ public class PlayerMove : NetworkBehaviour
         cam.enabled = false;
     }
 
+    public void movActivo()
+    {
+        mov = true;
+    }
+    
+    public void movApagado()
+    {
+        mov = false;
+    }
+
     private void Update()
     {
         if(!IsOwner) {return;}
-        
-        Movimiento();
 
-        if(Input.GetKeyDown(KeyCode.F))
+        if (mov)
         {
-            if(IsLocalPlayer)
-            {
-                MandarMensaje();
-            }
+            Movimiento();
         }
+        
+        
     }
 
     private void Movimiento()
@@ -93,26 +100,31 @@ public class PlayerMove : NetworkBehaviour
         Debug.Log(msj);
     }
 
-    public void MandarMensaje()
+    public void MandarMensaje(string mensaje)
     {
 
         if (Physics.Raycast(transform.position + transform.up * 0.75f, transform.TransformDirection(Vector3.forward), out RaycastHit hit, distancia))
         {
             var player = hit.collider.GetComponent<NetworkObject>();
-    
+
             if(player != null)
             {
                 ulong playerId = hit.collider.GetComponent<NetworkObject>().OwnerClientId;
-                
-                string msj = "Este es el mensaje";
 
-                MensajeServerRpc(playerId, msj);
+                MensajeServerRpc(playerId, mensaje);
+            }else
+            {
+                var playerBot = hit.collider.GetComponent<NetworkManagerRasa>();
+
+                if(playerBot != null){
+                    Debug.Log("Mensaje a rasa!! ");
+                    
+                    playerBot.SendMessageToRasa(mensaje);
+
+                }
             }
         }
     }
 
-    public bool host(){
-        return IsHost;
-    }
-
 }
+
