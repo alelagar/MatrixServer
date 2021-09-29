@@ -1,11 +1,11 @@
 using UnityEngine;
 using MLAPI;
 using MLAPI.Messaging;
-
+using UnityEngine.EventSystems;
+using UnityEngine.SocialPlatforms;
 
 public class PlayerMove : NetworkBehaviour
 {
-    
     [SerializeField] private CharacterController controller = null;
     public float speed = 2.0F;
     public float rotationSpeed=250f;
@@ -19,38 +19,44 @@ public class PlayerMove : NetworkBehaviour
 
     private float  x, y;
 
-    private bool mov = true;
+    private bool movimiento = true;
+
+    public EventSystem eventSystem;
 
     public void Start() 
     {
+        if (IsLocalPlayer)
+        {
+            gameObject.tag = "Local";
+        }
         // Si es mi script, retorno
         if (IsOwner) return;
  
         // Apago la camara y sonido, porque no son mios
-        cam.GetComponent<AudioListener> ().enabled  =  false;
+        cam.GetComponent<AudioListener>().enabled  =  false;
         cam.enabled = false;
+        eventSystem.enabled = false;
+
     }
 
     public void movActivo()
     {
-        mov = true;
+        movimiento = true;
     }
     
     public void movApagado()
     {
-        mov = false;
+        movimiento = false;
     }
 
     private void Update()
     {
         if(!IsOwner) {return;}
 
-        if (mov)
+        if (movimiento)
         {
             Movimiento();
         }
-        
-        
     }
 
     private void Movimiento()
@@ -91,13 +97,16 @@ public class PlayerMove : NetworkBehaviour
         MensajeClientRpc(msj, clientRpcParams);
     }
     
-
     [ClientRpc]
     private void MensajeClientRpc(string  msj, ClientRpcParams clientRpcParams = default)
     {
         if (IsOwner) return;
 
-        Debug.Log(msj);
+        GameObject player = GameObject.FindGameObjectWithTag ("Local");
+        player.GetComponent<PlayerMove>().movApagado();
+        player.GetComponent<Chat>().mensajeEnPantalla(msj);
+        player.GetComponent<CanvasCont>().ActivateCanvas();
+        
     }
 
     public void MandarMensaje(string mensaje)
@@ -110,21 +119,17 @@ public class PlayerMove : NetworkBehaviour
             if(player != null)
             {
                 ulong playerId = hit.collider.GetComponent<NetworkObject>().OwnerClientId;
-
                 MensajeServerRpc(playerId, mensaje);
             }else
             {
                 var playerBot = hit.collider.GetComponent<NetworkManagerRasa>();
 
-                if(playerBot != null){
-                    Debug.Log("Mensaje a rasa!! ");
-                    
+                if(playerBot != null)
+                {
                     playerBot.SendMessageToRasa(mensaje);
-
                 }
             }
         }
     }
 
 }
-

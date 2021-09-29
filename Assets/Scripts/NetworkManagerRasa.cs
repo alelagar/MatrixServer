@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Networking;
+using System.Reflection;
 
 public class PostMessageJson {
     public string message;
@@ -9,18 +10,24 @@ public class PostMessageJson {
 }
 
 [Serializable]
-public class ReceiveMessageJson {
+public class mensajeEnviadoPorChatbot 
+{
     public string recipient_id;
     public string text;
- 
+    
 }
+
+[Serializable]
+public class RootmensajeEnviadoPorChatbot {
+    public mensajeEnviadoPorChatbot[] messages;
+}
+
 
 public class NetworkManagerRasa : MonoBehaviour {
 
+    public const string host = "localhost";
 
-    public string url = "";
-
-    private const string rasa_url = "http://localhost:5005/webhooks/rest/webhook";
+    private const string rasa_url = "http://" + host + ":5005/webhooks/rest/webhook";
 
     public void SendMessageToRasa (string msj) {
         
@@ -48,18 +55,39 @@ public class NetworkManagerRasa : MonoBehaviour {
     }
 
     public void Respuesta (string response) {
-        //ReceiveMessageJson mensaje = JsonUtility.FromJson<ReceiveMessageJson>("{"+response+"}");
 
-            if (Physics.Raycast(transform.position + transform.up * 0.75f,
-                transform.TransformDirection(Vector3.forward), out RaycastHit hit, 2.5f))
-            {
-                var player = hit.collider.GetComponent<Chat>();
+        RootmensajeEnviadoPorChatbot recieveMessages = JsonUtility.FromJson<RootmensajeEnviadoPorChatbot>("{\"messages\":" + response + "}");
 
-                if (player != null)
-                {
-                    player.mensajeEnPantalla(response);
+        
+        foreach (mensajeEnviadoPorChatbot message in recieveMessages.messages) {
+
+            FieldInfo[] fields = typeof(mensajeEnviadoPorChatbot).GetFields();
+
+            foreach (FieldInfo field in fields) {
+                string data = null;
+
+                try {
+                    data = field.GetValue(message).ToString();
+                } catch (NullReferenceException) { }
+
+                if (data != null && field.Name != "recipient_id") {
+                    
+                    ////////////////////////////////////////////////////////////
+                    if (Physics.Raycast(transform.position + transform.up * 0.75f, transform.TransformDirection(Vector3.forward), out RaycastHit hit, 2.5f))
+                    {
+                        var player = hit.collider.GetComponent<Chat>();
+
+                        if (player != null)
+                        {
+                            player.mensajeEnPantalla(data);
+                        }
+                    }
+                    ////////////////////////////////////////////////////////////
+
                 }
             }
+        }
+         
     }
     
 }

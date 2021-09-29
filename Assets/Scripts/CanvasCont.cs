@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using MLAPI;
 
-public class CanvasCont : MonoBehaviour
+
+public class CanvasCont : NetworkBehaviour
 {
-    public GameObject canvasObject; // drag your canvas object to this variable in the editor
-    // make your canvas active from a disables state by calling this method
+    public GameObject canvasObject; 
+
     public void Start()
     { 
         canvasObject.SetActive(false);
@@ -13,11 +15,13 @@ public class CanvasCont : MonoBehaviour
 
     public void ActivateCanvas()
     {
+        if(!IsLocalPlayer) {return;}
         canvasObject.SetActive(true);
     }
     
     public void DesactivateCanvas()
     {
+        if(!IsLocalPlayer) {return;}
         canvasObject.SetActive(false);
     }
    

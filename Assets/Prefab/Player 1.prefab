@@ -2100,7 +2100,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5878875698446077763}
   m_HandleRect: {fileID: 5878875698446077764}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -4075,6 +4075,7 @@ MonoBehaviour:
   gravity: 20
   animator: {fileID: 2924818913448879135}
   cam: {fileID: 8841941198019207199}
+  eventSystem: {fileID: 5878875698930025217}
 --- !u!114 &4803702208930557832
 MonoBehaviour:
   m_ObjectHideFlags: 0

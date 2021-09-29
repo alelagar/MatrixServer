@@ -1,8 +1,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using MLAPI;
 
-public class Chat : MonoBehaviour
+public class Chat : NetworkBehaviour
 {
     public GameObject chatPanel, textObject;
 
@@ -17,10 +18,11 @@ public class Chat : MonoBehaviour
     
     private void Update() 
     {
+
+        if(!IsLocalPlayer) {return;}
         
         if(Input.GetMouseButtonDown(1))
         {
-           // if(IsLocalPlayer)
            
            if (!act)
            {
@@ -71,7 +73,6 @@ public class Chat : MonoBehaviour
 
         messageList.Add(newMessage);
     }
-
     
 }
 
