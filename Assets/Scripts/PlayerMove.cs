@@ -57,6 +57,7 @@ public class PlayerMove : NetworkBehaviour
         {
             Movimiento();
         }
+        activarObjeto();
     }
 
     private void Movimiento()
@@ -127,6 +128,26 @@ public class PlayerMove : NetworkBehaviour
                 if(playerBot != null)
                 {
                     playerBot.SendMessageToRasa(mensaje);
+                }
+            }
+        }
+    }
+
+    public void activarObjeto()
+    {
+        if (Physics.Raycast(transform.position + transform.up * 0.75f, transform.TransformDirection(Vector3.forward), out RaycastHit hit, distancia))
+        {
+            var puerta = hit.collider.GetComponent<PuertaActivable>();
+            if(Input.GetKeyDown(KeyCode.E))
+            {
+                if (puerta != null)
+                {
+                    Debug.Log("Puerta no null");
+                    puerta.Activar();
+                } 
+                else 
+                {
+                    Debug.Log("Puerta null :(");
                 }
             }
         }
