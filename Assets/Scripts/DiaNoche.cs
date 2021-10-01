@@ -1,22 +1,36 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using MLAPI;
 using MLAPI.NetworkVariable;
 
 public class DiaNoche : NetworkBehaviour
 {
-   
-    NetworkVariableFloat rotationScale = new NetworkVariableFloat();
-
-    private void Start() {
-        rotationScale.Value = 10;
-    }
+    float rotationScale = 5.0f;
+    private NetworkVariableQuaternion posicion = new NetworkVariableQuaternion();
 
     void Update()
     {
-        Debug.Log("Dia noche, valor "+ rotationScale.Value);
-      transform.Rotate(rotationScale.Value * Time.deltaTime,0,0); 
+ 
+        if (IsHost)
+        {
+            ControlarDia();
+        }
+        
+    }
+ 
+    private void ControlarDia()
+    {
+        transform.Rotate(rotationScale * Time.deltaTime, 0, 0);
+        posicion.Value = transform.rotation;
     }
 
+    private void OnEnable()
+    {
+        posicion.OnValueChanged += actualizarRotacion;
+    }
+    
+    void actualizarRotacion(Quaternion old, Quaternion newValue)
+    {
+        if(IsHost){return;}
+        transform.rotation = newValue;
+    }
 }

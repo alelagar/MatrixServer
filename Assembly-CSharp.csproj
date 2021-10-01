@@ -51,9 +51,12 @@
      <Compile Include="Assets\Scripts\PlayerMove.cs" />
      <Compile Include="Assets\Scripts\DiaNoche.cs" />
      <Compile Include="Assets\Scripts\Chat.cs" />
+     <Compile Include="Assets\Simple_Day_and_Night_Cycle\Scripts\DayAndNightControl.cs" />
      <Compile Include="Assets\Scripts\PuertaActivable.cs" />
      <Compile Include="Assets\Scripts\NetworkManagerRasa.cs" />
      <Compile Include="Assets\Scripts\CanvasCont.cs" />
+     <Compile Include="Assets\Simple_Day_and_Night_Cycle\Scripts\VisualClockController.cs" />
+     <None Include="Assets\Simple_Day_and_Night_Cycle\ReadMe.txt" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
