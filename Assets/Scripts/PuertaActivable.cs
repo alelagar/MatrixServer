@@ -5,19 +5,20 @@ using UnityEngine;
 public class PuertaActivable : MonoBehaviour
 {
     bool abierta = false;
+    public GameObject puerta; 
 
     public void Activar()
     {
 
             if (!abierta)
                 {
-                    transform.Rotate(0,-90,0);
+                    puerta.transform.Rotate(0,-80,0);
                     abierta= true;
                 }
 
             else
                 {
-                    transform.Rotate(0,90,0);
+                    puerta.transform.Rotate(0,80,0);
                     abierta=false;    
                 }
 
