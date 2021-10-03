@@ -29,7 +29,7 @@ public class NetworkManagerRasa : MonoBehaviour {
 
     private const string rasa_url = "http://" + host + ":5005/webhooks/rest/webhook";
 
-    public void SendMessageToRasa (string msj) {
+    public void MensajeARasa (string msj) {
         
         PostMessageJson postMessage = new PostMessageJson {
             sender = "user",

@@ -2,104 +2,553 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="316354ff-0e50-46aa-83d0-d55d7ca490f8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MatrixServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatrixServer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/boyPlayer.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/boyPlayer.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player 1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DiaNoche.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DiaNoche.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PuertaActivable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PuertaActivable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Effects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Effects/LightFlares.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Effects/LightFlares/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Effects/LightFlares/Materials/Flare50mm.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Effects/LightFlares/Materials/Flare50mm.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Effects/LightFlares/Materials/Moon 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Effects/LightFlares/Materials/Moon 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Effects/LightFlares/Materials/Moon.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Effects/LightFlares/Materials/Moon.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Effects/LightFlares/Materials/Sky 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Effects/LightFlares/Materials/Sky 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Effects/LightFlares/Materials/Sky.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Effects/LightFlares/Materials/Sky.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Materials/ClockFace.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Materials/ClockFace.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Materials/Clockhands.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Materials/Clockhands.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Materials/GroundMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Materials/GroundMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Materials/Starstexture.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Materials/Starstexture.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Models/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Models/Materials/Grass.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Models/Materials/Grass.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Models/Materials/No Name.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Models/Materials/No Name.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Models/SimpleTerrain.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Models/SimpleTerrain.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Models/StarDome.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Models/StarDome.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Prefabs/ClockObject.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Prefabs/ClockObject.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Prefabs/Day and Night Controller.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Prefabs/Day and Night Controller.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Prefabs/Lighting Fixer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Prefabs/Lighting Fixer.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Prefabs/SimpleTerrain.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Prefabs/SimpleTerrain.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Prefabs/StarDome.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Prefabs/StarDome.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/ReadMe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/ReadMe.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Scenes/Playable Scene (Alien).unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Scenes/Playable Scene (Alien).unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Scenes/Playable Scene (Alien)Settings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Scenes/Playable Scene (Alien)Settings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Scenes/Playable Scene (Dark).unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Scenes/Playable Scene (Dark).unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Scenes/Playable Scene (Dark)Settings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Scenes/Playable Scene (Dark)Settings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Scenes/Playable Scene (Normal).unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Scenes/Playable Scene (Normal).unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Scenes/Playable Scene (Normal)Settings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Scenes/Playable Scene (Normal)Settings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Scripts/DayAndNightControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Scripts/DayAndNightControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Scripts/VisualClockController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Scripts/VisualClockController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Textures/Grass.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Textures/Grass.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Textures/Moon.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Textures/Moon.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Textures/Starstexture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Simple_Day_and_Night_Cycle/Textures/Starstexture.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB-lock" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB-lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/24/242f71fa2e947f9d1cbab752fa1b7a54" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/29/29bd035a188e59e3a865b7833db725b5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5c/5c8553e7c7fec5dc699689dd4d6b298e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5d/5daaf29a33664aa98461368c4c3220a3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5f/5f4b66a4cf016d586205ee873369cd90" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8b/8b2d96b2669c982c7d2360923c794a66" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a0/a0821ad4d2ff67a4dd95327a26a5ca23" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d0/d09a8fa80f1d59dbe5fde6da85dff6d2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ef/efc5d442c24311023f32b30e36e8bb48" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f6/f6ee5c3bc24542bfd5ed8d8a8383c5cf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/02/0257b405646a1f81a14ac4e2b75746ae" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/02/026cc3b343ea626dfaf357e95128164a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/05/05087e79eb83f9c157c3e15b6143dc6f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/05/057fb3694c7709753e7449301e456f27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/0d/0d6a426f748a7e7a80ed42e5a99415d2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/0e/0e237dd4ac4163e3e9b4dd587550e675" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/0e/0e42ea725275b3a098d99f45419303c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/0e/0e93d7deea4fd1d2bb7018c0d8650f19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/10/10a6cf5500fa9fb9032fe9b5fbafc72f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/12/12542edfc44264a74928501e57d7b74c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/12/12921919826665c2a85cef457a70641a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/12/12c7513ed9741603de1843c12da1ad65" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/13/135bed32508cff3fabc004308a22c12f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/15/1538614126ad0d08029b07007be0dfad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/17/17a84d0c8ac7ea70e135ea4ba90ab892" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/18/183ae0ec547e43311354d63b820cf2f7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/18/18a5c05938cd586f029acc32286d3fce" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/19/1936090ffcc05d312bc5e9330a6de30e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/19/199ad8161cac78573b018378365cf0b6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/1c/1c9ea69530bd75289ef23300e934ccc4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/1d/1d22b671ae6f4bbe91ce79cf57b1a0d1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/1e/1e0831adad2f911da715e2611220f572" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/20/20a2310989417a30976370f3a10eb078" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/21/21448c7f47c0993b578854ef0834212f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/21/21b88e5b39d5729ac703ff2fee4d690a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/21/21fd94dab099c0562367f2563256d6c4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/24/24020fd451b74dbe7f8e1532d62fb053" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/24/24af56a3ce3d8d5b091bbb91f362e28c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/24/24df6a678ed48b75281fe5efe8a34798" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/25/257f161419f6a807a4765b21c13ab974" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/26/26101581f29b00882e52f2cddc386cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/27/27d31c3e4fac2ef474ecabda6e71af72" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/2a/2a1a1b41aef7ecb1b0c76c3a208d568a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/2e/2ee274df5cea598f1c843734e75aab31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/2f/2fb82074a7e4fa6a887137d86e58a6a7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/31/310a5ae1345e7c63f5660442e12524c5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/32/3212e4cb3b57e52de6846d0749795f94" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/34/348a7e5d352d13474d7a16ed5570a5b9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/35/35d1da01e2e4e5795d7f63399e2b00f6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/37/375fa4a0696ba70335f3292ff36bd48c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/37/37fc96416e019c96152c52c7cb5d5b5f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/39/397213c415ec2db1e344fdb48ff9a082" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/39/39c3887ceec05f87295d508e89b14a1f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/39/39df6ec2585c977a87a157952b6637ee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/3a/3a9c2fb566a60791b4c3e0733f45870a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/3e/3e6c76b503184d5b657be68dade15d0f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/3e/3ed07f5b68e20f939e8e45a4a28f28ad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/41/41e3e8dd6dca645fd670a38f9f9306fa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/42/42ac520259d8db6f125083454894e364" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/45/45c1a524c38944bfa89082e84a4f147a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/46/46816a0bd8f7462b122fa3fd736fa81e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/46/46e2aaba5ee846d15ea293f43681d3a6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/48/48c42761e46f11af80f1c2ae9581aeaf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/49/499a96889d5ba04ce71cd07387e614f1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4a/4a5b8e250038674660ae102485baf153" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4c/4c73d9c84aef76e446993731797dca00" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/52/5230303cb01bdbbdda1c65fa70d3095f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/53/53d1f87fe4c8c7dccb6f2f42af74b747" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/53/53f6d8fd1a6991a6fa1cc704466c04f7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/54/540c545833f6aae41d44c223bb5f88ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/57/57703609866bab15debedc83d8d51c6b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/57/57ce1d25263bec6bb7048b6783c2ef4d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5d/5d749e35edc1dd0aa1caa63af9394eed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5d/5db95312b91eb6c57e8c9b0a20b6d89b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5f/5ff44876ca3dd4d91f0f235b0b252866" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/60/6001b514a6424270b6f92d1b48c9c103" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/60/600a6baef76389e880a7cd22cdedf2d5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/62/6285fa9602149db4874555c1ba3ccc55" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/63/63bf92fa29918c64066a4205ad96b744" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/64/645b7117873f36270a5649139e2754ff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/66/662b6c1bd7547d071005f426e36bf592" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/68/686db2bd80041a2ab3d34c280cc3b525" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/68/68895cc80faf42aaf7c2ce4dac0646cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/6b/6bb1dc5cbc9690949de8a9c77b2e82cf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/6c/6c68b0c8a52dc80088e190c5d9d91c73" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/72/72f368f4745853d6a8fcc913987dd75f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/76/760875f45ccbc441abf528837ac89831" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/77/77e1b5880b0fdfc71c71b694e791fe0d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/78/787f8b5d84c83818ef3326baacfc23f0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/7b/7b0e7454598be96ab5408a22bb0c631e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/7e/7efabe183164ee73b51b2dd1c26d4399" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/82/82b886fda49eb2cab01945810722ce80" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/83/830d49ba4dfa9a2b32f2ae35a9d99697" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/83/838ee270972e810c4ba527dce41649e3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/83/83d112828167eecbfed911f35c513aac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/84/849141947311bb3879deb9c6c72891dc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/88/8836f283e30dcf9a6ac9c7bcaf8e5a0f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8a/8a9e40bec1de3f242b5abb0b018a0279" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8a/8aacb03fae089bf7b19b35f7af9bc22e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8a/8ae221cad1654d1b665f049fbb9a5ac2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8d/8d0c6546d6703677d9e3f3cb49f75775" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8d/8d27c65a1e8006abd255655207c5ac7a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8f/8f8c5736568da5f31d971ae5de33cea7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/90/90891e3bf6912b248313a15558afa3fd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/91/915e65368a7cb518da6aac907b48411f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/92/925c533a0b255434c7d31b6f03d622b3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/94/944d3777fbe0aeea6c336819a2cee35c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/98/98ddd633cd8ac72663e9b59696f8f02a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/99/99b45395c56bd2336be03b6fba88e095" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9b/9b2943c04e7c7fe70fbe38f5dd657317" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9c/9c52d4b38dc3089f51c5a2a057ea8e54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9d/9d5d1a270f696ee97cea0d14071e5865" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a0/a00b28f53c68ac5f03f3d4db4f00a4af" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a1/a1d47f772f8766c771d999ff574460b2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a2/a21d1db7f8abb4ad4becbe81a513cab1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a2/a2c3db12eae20706b108b642d07d4bad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a5/a5693ccc891dfd26f630f70163788f2e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a5/a5b53fd7b37855da97b30ab563ffcfbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a6/a649ebbfec6b8ff89ea898e85b585552" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a8/a801de888f432851a8d6839d5207b093" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a8/a808929d95f52f656101d99955e154c8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a9/a918112f67c7d7fe2f63c63cd6f99f58" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/aa/aa59275a68616e732619619e2dcd582a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/aa/aa9eb30244fead32db4e310ca2746c40" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ab/ab34912a06e92aedb63a305e89d703e0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ac/ace8260e4b6dac434fd33481862fa579" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ae/ae2b9be2df465bbb318d1bf35a36ea30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b1/b189feea2fd28052e97ce405bedd1c28" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b2/b274487782aecb0402b0593101d547aa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b3/b3440cd6b495d02ec8f47a0bed974dde" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b3/b3709fd815d672ef6178e75ed74e079d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b4/b446549c230fbf895a53187c2844ecdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b6/b6b25b69e104036b7d161cef018a7730" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b7/b7bad95acebadcf24df06b80711faece" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b8/b895e6f70756d68084298b34ef80da07" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ba/ba1d3878ad6beaaf93eb485da32a5947" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/bd/bd15c6e776aa2e5de06b378e8ca7eda4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/bd/bd7fde6e3d8879e207187ec6d9364a09" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/bd/bd94580f4f6b9f6ebb4d990ac88dd257" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c1/c16d4a066b17001dfd475dee067b5a92" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c2/c2534d276280e9fc18a64d612e67d5e2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c3/c3ac9dcdb6a7345a60ecd614791502cb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c4/c4a9109afec89c28b8670fac2759c9d2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c8/c87aa086503d26820af43ab7af4f39da" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c8/c8fd05e5ed7c09b321efb5cc6ce229a4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c9/c99d3f988eda04fa8eff4465c6f69ef7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ca/caa622427cd7cfe30e38a6ccf73c9cd2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/cb/cb59b727b76a29e8aa446df4fccdcb58" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/cd/cd04bc47fdd92fe1e54353786493bd54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ce/ce35ba9115583100a9c18575a712163b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ce/ce3f0fe482c2e9a8454e86c18b4bfb17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/cf/cf2097bc95923d7f08058db241d2fb72" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/cf/cf3519551413b303f5dff5ccc2ed66ca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/cf/cf782b01631231c05e565ce0b62769a5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d0/d09a041d468e5ac612cddb2b763b025b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d2/d203a408e04168c72862c5061dc2dac1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d3/d36accee303dac58eedc02bfc4ae59b6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d3/d371f4b69f430ad9e4b1e4b4a13ba4dc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d4/d41bc511026960d6ff6c180712181ebb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d5/d5cf38c352665aa687df84bb2d0ad0af" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d8/d8fef74ebc87372a00eeadb343d283f7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d9/d9308a564c05fe41d42c06ce7816ebab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/dd/ddf3fac8b0a9e593d2d583fa825e19e9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/de/de39e9bed8b06984d2a558fa2cc6383a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e0/e024e43af3e6fab85d9e7023d63ab7d2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e0/e086e109258dde3da23f9e93fe56eb53" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e2/e2b9ebacad99a0a70c037d86fb44dc3d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e2/e2f178bddc8149980bd20fce7b5fcf1a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e4/e4005761afb04b1a470c85f148f8153e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e5/e5dc0bf5b33616b8d1c4c61a9e49b84c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e6/e60c7eb64213d13f75179941459260f4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e6/e698a7b309bc4cc25566228c960d3112" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e8/e83c6f3c1215d162195c0ef955425c76" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e9/e93367bfd9c2d0931295a4ef03217236" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e9/e93b93c8d42bbd60d99be7003b23e759" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ea/ea60c1c755025a1c22ca791c5512a758" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ea/ead15032005ebc4680fa1fec6f0a1987" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/eb/eb26ba6a466c28280ddfe68142a7bfef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ec/ecd4203b44e286bfe65220afbdb52b36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f0/f0464436d3015a2d03a6a54a0cbf4da9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f1/f1324bee466d304a0e43b9182ec624a3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f1/f1a39af79be053a198caee257d9741df" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f7/f701c6bb4ee8fa92de5b62445729bafe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f7/f76724bfe1eb3b9c40b01b2dc7a235c6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f9/f94ffcd7a1f4e8b11a070e6125908d6b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/fc/fcebf45136e5e6ab3c13ab56bd0b2b9e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/fe/feecf2ddd1f59fa792f1c957aad94944" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ff/ff592a7d6487a8e3e23936d71beddb58" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ff/ffc10872e064fd69f705445d1eb74dd1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorOnlyScriptingSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorOnlyScriptingSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/AccessingPlastic.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/AccessingPlastic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/AutomaticSetup.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/AutomaticSetup.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/Compatibility.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/Compatibility.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/DeveloperWorkflow.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/DeveloperWorkflow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/FileHistory.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/FileHistory.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/GameSceneExample.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/GameSceneExample.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/GamesSceneExample.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/GamesSceneExample.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/GluonWorkflow.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/GluonWorkflow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/IncomingChanges.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/IncomingChanges.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/InspectorWindow.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/InspectorWindow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/MigrateProjects.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/MigrateProjects.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/PendingChanges.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/PendingChanges.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/PlasticOrg.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/PlasticOrg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/ProjectHistory.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/ProjectHistory.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/ProjectView.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/ProjectView.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/SignIn.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/SignIn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/SwitchCollab.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/SwitchCollab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/Workspace.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Documentation~/images/Workspace.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/added-file-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/added-file-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/added-file-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/added-file-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/added-file-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/added-file-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/back-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/back-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/back-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/back-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/back-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/back-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/back-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/back-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/choose-mine-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/choose-mine-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/choose-mine-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/choose-mine-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/choose-mine-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/choose-mine-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/choose-mine-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/choose-mine-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/choose-remote-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/choose-remote-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/choose-remote-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/choose-remote-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/choose-remote-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/choose-remote-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/choose-remote-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/choose-remote-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/clear-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/clear-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/clear-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/clear-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/clear-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/clear-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/clear-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/clear-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-available-changes-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-available-changes-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-available-changes-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-available-changes-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-available-changes-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-available-changes-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-available-changes-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-available-changes-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-done-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-done-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-done-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-done-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-done-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-done-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-done-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-done-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-error-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-error-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-error-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-error-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-error-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-error-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-error-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-error-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-incoming-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-incoming-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-incoming-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-incoming-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-incoming-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-incoming-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-incoming-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-incoming-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-offline-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-offline-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-offline-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-offline-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-offline-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-offline-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-offline-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-offline-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-progress-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-progress-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-progress-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-progress-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-progress-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-progress-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-progress-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-progress-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-warning-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-warning-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-warning-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-warning-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-warning-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-warning-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-warning-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/collaborate-warning-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/conflicted-file-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/conflicted-file-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/conflicted-file-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/conflicted-file-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/conflicted-file-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/conflicted-file-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/conflicted-file-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/conflicted-file-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/deleted-file-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/deleted-file-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/deleted-file-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/deleted-file-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/deleted-file-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/deleted-file-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/deleted-file-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/deleted-file-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/diff-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/diff-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/diff-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/diff-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/diff-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/diff-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/diff-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/diff-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/edited-file-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/edited-file-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/edited-file-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/edited-file-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/edited-file-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/edited-file-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/edited-file-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/edited-file-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/loading-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/loading-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/loading-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/loading-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/loading-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/loading-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/loading-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/loading-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/merge-conflicts-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/merge-conflicts-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/merge-conflicts-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/merge-conflicts-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/merge-conflicts-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/merge-conflicts-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/merge-conflicts-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/merge-conflicts-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/merge-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/merge-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/merge-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/merge-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/merge-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/merge-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/merge-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/merge-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/more-vert-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/more-vert-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/more-vert-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/more-vert-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/more-vert-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/more-vert-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/more-vert-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/more-vert-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/moved-file-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/moved-file-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/moved-file-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/moved-file-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/moved-file-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/moved-file-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/moved-file-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/moved-file-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/publish-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/publish-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/publish-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/publish-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/publish-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/publish-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/publish-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/publish-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/revert-asset-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/revert-asset-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/revert-asset-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/revert-asset-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/revert-asset-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/revert-asset-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/revert-asset-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/revert-asset-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/search-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/search-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/search-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/search-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/search-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/search-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/search-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/search-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/show-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/show-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/show-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/show-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/show-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/show-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/show-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/show-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/status-error-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/status-error-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/status-error-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/status-error-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/status-error-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/status-error-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/status-error-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/status-error-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/status-info-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/status-info-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/status-info-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/status-info-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/status-info-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/status-info-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/status-info-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/status-info-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/status-warning-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/status-warning-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/status-warning-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/status-warning-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/status-warning-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/status-warning-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/status-warning-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/status-warning-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/undo-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/undo-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/undo-dark@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/undo-dark@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/undo-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/undo-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/undo-light@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/Collaborate/Assets/Icons/undo-light@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/buttonssosigninemail.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/buttonssosigninemail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/buttonssosigninemail@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/buttonssosigninemail@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/buttonssosigningoogle.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/buttonssosigningoogle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/buttonssosigninunity.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/buttonssosigninunity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_cloudbuho.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_cloudbuho.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_cloudbuhochristmas.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_cloudbuhochristmas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_cloudbuhoshe.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_cloudbuhoshe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_cloudbuhoshechristmas.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_cloudbuhoshechristmas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_colorbuho.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_colorbuho.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_colorbuhochristmas.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_colorbuhochristmas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_colorbuhoshe.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_colorbuhoshe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_colorbuhoshechristmas.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_colorbuhoshechristmas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_expertbuho.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_expertbuho.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_expertbuhochristmas.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_expertbuhochristmas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_expertbuhoshe.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_expertbuhoshe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_expertbuhoshechristmas.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_expertbuhoshechristmas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_genericbuho1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_genericbuho1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_genericbuho2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_genericbuho2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_genericbuho3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_genericbuho3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_genericbuhochristmas1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_genericbuhochristmas1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_genericbuhochristmas2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_genericbuhochristmas2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_genericbuhochristmas3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_genericbuhochristmas3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_genericbuhoshe1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_genericbuhoshe1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_genericbuhoshe2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_genericbuhoshe2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_genericbuhoshe3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_genericbuhoshe3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_genericbuhoshechristmas1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_genericbuhoshechristmas1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_genericbuhoshechristmas2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_genericbuhoshechristmas2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_genericbuhoshechristmas3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_genericbuhoshechristmas3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_iconplasticview.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_iconplasticview.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_iconplasticview@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_iconplasticview@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_iconplasticviewnotify.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_iconplasticviewnotify.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_iconplasticviewnotify@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_iconplasticviewnotify@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_loading.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_loading.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_loading@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_loading@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_step1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_step1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_step1@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_step1@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_step2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_step2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_step2@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_step2@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_step3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_step3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_step3@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_step3@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_stepok.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_stepok.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_stepok@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_stepok@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_stevejobsbuho.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_stevejobsbuho.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_stevejobsbuhochristmas.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_stevejobsbuhochristmas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_stevejobsbuhoshe.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_stevejobsbuhoshe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_stevejobsbuhoshechristmas.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/d_stevejobsbuhoshechristmas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconadded.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconadded.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconchanged.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconchanged.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconclosebutton.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconclosebutton.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/icondeleted.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/icondeleted.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconemptygravatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconemptygravatar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconemptygravatar@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconemptygravatar@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconfschanged.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconfschanged.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconmergecategory.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconmergecategory.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconmergeconflict.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconmergeconflict.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconmerged.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconmerged.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconmergelink.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconmergelink.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconmoved.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconmoved.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconplastic.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconplastic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconplasticview.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconplasticview.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconplasticview@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconplasticview@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconplasticviewnotify.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconplasticviewnotify.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconplasticviewnotify@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconplasticviewnotify@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconpressedclosebutton.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconpressedclosebutton.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconrepository.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/iconrepository.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/ignored.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/ignored.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/loading.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/loading.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/loading@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/loading@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/notondisk.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/notondisk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/ok.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/ok.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/step1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/step1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/step1@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/step1@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/step2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/step2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/step2@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/step2@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/step3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/step3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/step3@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/step3@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/stepok.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/stepok.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/stepok@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/stepok@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/xlink.png" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Editor/PlasticSCM/Assets/Images/xlink.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Lib/Editor/PlasticSCM/log4netPlastic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Lib/Editor/PlasticSCM/log4netPlastic.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Lib/Editor/PlasticSCM/lz4x64Plastic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Lib/Editor/PlasticSCM/lz4x64Plastic.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Lib/Editor/PlasticSCM/unityplastic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Lib/Editor/PlasticSCM/unityplastic.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Lib/Editor/PlasticSCM/zlib64Plastic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.7.1/Lib/Editor/PlasticSCM/zlib64Plastic.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/AOT/Newtonsoft.Json.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/AOT/Newtonsoft.Json.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Portable/Newtonsoft.Json.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Portable/Newtonsoft.Json.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageManager/ProjectCache" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageManager/ProjectCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageManager/ProjectCache.md5" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageManager/ProjectCache.md5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Multiplayer.MLAPI.Editor.CodeGen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Multiplayer.MLAPI.Editor.CodeGen.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Multiplayer.MLAPI.Editor.CodeGen.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Multiplayer.MLAPI.Editor.CodeGen.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Multiplayer.MLAPI.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Multiplayer.MLAPI.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Multiplayer.MLAPI.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Multiplayer.MLAPI.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Multiplayer.MLAPI.Prototyping.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Multiplayer.MLAPI.Prototyping.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Multiplayer.MLAPI.Prototyping.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Multiplayer.MLAPI.Prototyping.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Multiplayer.MLAPI.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Multiplayer.MLAPI.Runtime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Multiplayer.MLAPI.Runtime.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Multiplayer.MLAPI.Runtime.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB-lock" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB-lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/PrefabStageHierarchy/2a/2a6a1209c3ad84b1895cafae78fac2b1.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/PrefabStageHierarchy/2a/2a6a1209c3ad84b1895cafae78fac2b1.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/bb/bb51a41947848b8dcf1c05eb02390e14.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/bb/bb51a41947848b8dcf1c05eb02390e14.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/ApiUpdater_CheckMovedFrom68176987abc0f4a7e81fb17daa628dcf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/CompilationLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/CompilationLog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Unity.CollabProxy.Editor.dll.hash" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Unity.Multiplayer.MLAPI.Editor.CodeGen.dll.hash" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Unity.Multiplayer.MLAPI.Editor.dll.hash" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Unity.Multiplayer.MLAPI.Prototyping.dll.hash" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Unity.Multiplayer.MLAPI.Runtime.dll.hash" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Unity.PlasticSCM.Editor.dll.hash" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Unity.Rider.Editor.dll.hash" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Unity.TextMeshPro.Editor.dll.hash" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Unity.TextMeshPro.dll.hash" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Unity.Timeline.Editor.dll.hash" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Unity.Timeline.dll.hash" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Unity.VSCode.Editor.dll.hash" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/Unity.VisualStudio.Editor.dll.hash" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityEditor.TestRunner.dll.hash" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityEditor.UI.dll.hash" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityEngine.TestRunner.dll.hash" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityEngine.UI.dll.hash" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-01f3f9e366e5d5205ba92134f4c03b1d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-050dca9a655bf9f599a8842204948ac9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-0d5c83178d03b8ee1995d2e2478c467c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-15f83fdd519017ed5b4688554383c801" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-1755438e781975eb6bbb628926533423" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-23f41b1ac468adfd3bb6ffeb3cb03972" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-2805c1b5103804bf2a4382eabce97a5f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-3540473067f6aef28b7b0d104508c654" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-374b4415fe62b2703b542911da29ea06" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-37d94eecb040262aab2ff1f8fe1ee6d1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-38a24d8e6ec26e23aa453d1176f2a349" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-3d0082f7088c150f6b20559cdaae0ae9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-40ce5b0160481ecba9a66ea98a97c368" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-438eb87f298eb7545aa43853324b88f5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-43e69ebf4d3b4d8fca036c0b84332abb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-4c715d1350d222f1b9ad285a1e754663" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-540f5daf536db63589a279b3998436ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-57e8ef3e2efb0342cb2b53f4430e004b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-58b2b0b97890abf5591473382e34dbdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-5d429435fee1ed1ff8a50a79273ec994" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-6b640ebe7d5db645c8557812b531a195" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-6c27a8b007a2d965f933f57df826dcd7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-6dec3161c1c055ef192e14922c249d06" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-6f26907317291253a968abd313a1a600" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-724957337f79bdcae8f65bb070100380" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-7a076593f3207298bb91e302de5daa54" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-7b643ffcc83947e78b8a15ea265074db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-7e55d3411d51f7a40ba7749cf02a86dd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-7ed5a93a9d924f209add0b0ebc082035" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-81909e35cec41c259901027ccfcf9096" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-8264403240e076192a27103671cd1ebf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-83b3620b68589eab2ae8bd1a981d2d82" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-8ced16b9fe966b69b8257f41cc7f400c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-92a96022155cf118e8d1427e9bdd760a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-94debe2a427d7f24c9fb9d6b3f7310e7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-a81236993b404be4abf396d2a5574670" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-a887b779db12f67e189e4074f50e4bfc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-a96e60554c40ad07e95611ed7035c493" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-ad07df9ccc44f2dbfbf9597cb3d47a1c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-c0993b27a9d1d4a22906a2de75f82ebc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-cd8107c08f713970a8240724454920df" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-d0385c07d307f77c29a58d385b50e126" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-d4b6b87839674f968b0040d07aa6ee92" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-db8568c47a28123b58b354c5007add59" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-e4cc6a6b682ace9c89815ee08e681f09" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-eb12579d2e2cbeebc9a5a06aa7e53e2d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-ed41775272c749767baa009d77e17460" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-edd069fac2752d1af81113217b79ef60" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/workerlic" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/workerlic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatrixServer.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MatrixServer.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,8 +560,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/ca/ad3754b9/String.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CanvasCont.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/ca/ad3754b9/String.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1ybLUMdeQnWFCC1rMaCjQTWzPXE" />
   <component name="ProjectViewState">

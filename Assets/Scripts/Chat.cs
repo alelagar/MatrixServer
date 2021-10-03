@@ -10,7 +10,7 @@ public class Chat : NetworkBehaviour
     public InputField chatBox;
 
     [SerializeField]
-    List<Message> messageList = new List<Message>();
+    List<Mensaje> listaMensajes = new List<Mensaje>();
 
     public int max = 10;
 
@@ -55,13 +55,13 @@ public class Chat : NetworkBehaviour
     public void mensajeEnPantalla(string text)
     {
 
-        if(messageList.Count >= max)
+        if(listaMensajes.Count >= max)
         {
-            Destroy(messageList[0].textObject.gameObject);
-            messageList.Remove(messageList[0]);
+            Destroy(listaMensajes[0].textObject.gameObject);
+            listaMensajes.Remove(listaMensajes[0]);
         }
 
-        Message newMessage = new Message();
+        Mensaje newMessage = new Mensaje();
 
         newMessage.text = text;
 
@@ -71,13 +71,13 @@ public class Chat : NetworkBehaviour
 
         newMessage.textObject.text = newMessage.text;
 
-        messageList.Add(newMessage);
+        listaMensajes.Add(newMessage);
     }
     
 }
 
 [System.Serializable]
-public class Message 
+public class Mensaje 
 {
     public string text;
     public Text textObject; 

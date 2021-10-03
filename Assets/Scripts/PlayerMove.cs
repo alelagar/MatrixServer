@@ -13,6 +13,9 @@ public class PlayerMove : NetworkBehaviour
     public float gravity = 20.0F;
     public Animator animator;
     public Camera cam;
+
+    public EventSystem eventSystem;
+
     private Vector3 moveDirection = Vector3.zero;
 
     private float distancia = 2.5f;
@@ -20,8 +23,6 @@ public class PlayerMove : NetworkBehaviour
     private float  x, y;
 
     private bool movimiento = true;
-
-    public EventSystem eventSystem;
 
     public void Start() 
     {
@@ -127,7 +128,7 @@ public class PlayerMove : NetworkBehaviour
 
                 if(playerBot != null)
                 {
-                    playerBot.SendMessageToRasa(mensaje);
+                    playerBot.MensajeARasa(mensaje);
                 }
             }
         }
@@ -142,13 +143,9 @@ public class PlayerMove : NetworkBehaviour
             {
                 if (puerta != null)
                 {
-                    Debug.Log("Puerta no null");
                     puerta.Activar();
                 } 
-                else 
-                {
-                    Debug.Log("Puerta null :(");
-                }
+                
             }
         }
     }
