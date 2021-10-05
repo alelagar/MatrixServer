@@ -3,19 +3,26 @@ using UnityEngine;
 using UnityEngine.UI;
 using MLAPI;
 
+public class Mensaje 
+{
+    public string text;
+    public Text textObject; 
+}
+
+// Sirve para manejar el canvas que aparece cuando quiero hablar con alguien
+// Muestra los mensajes por pantalla y tiene un input text para ingresar el mensaje deseado
+
 public class Chat : NetworkBehaviour
 {
     public GameObject chatPanel, textObject;
-
-    public InputField chatBox;
-
-    [SerializeField]
+    public InputField chat;
     List<Mensaje> listaMensajes = new List<Mensaje>();
+    public int maxMensajes = 10;
+    private bool chatActivo;
+    public string nombre;
 
-    public int max = 10;
-
-    private bool act = false;
-    
+    // Si aprieto click derecho, entonces puedo mostrar o hacer desaparecer la 
+    // lista de mensajes. 
     private void Update() 
     {
 
@@ -23,62 +30,56 @@ public class Chat : NetworkBehaviour
         
         if(Input.GetMouseButtonDown(1))
         {
-           
-           if (!act)
+           // Si el chat no esta activo, entonces, lo activo (mostrar en pantalla el cuadro con mensajes)
+           // Dejo quieto el movimiento del jugador
+           if (!chatActivo)
            {
-               GetComponent<PlayerMove>().movApagado();
-               GetComponent<CanvasCont>().ActivateCanvas();
-               act = true;
+               GetComponent<Jugador>().movimientoApagado();
+               GetComponent<ControladorCanvas>().ActivarCanvas();
+               chatActivo = true;
            }
+           
+           // Quiero dejar de hablar y desctivo todo
            else
            {
-               GetComponent<PlayerMove>().movActivo();
-               GetComponent<CanvasCont>().DesactivateCanvas();
-               act = false;
+               GetComponent<Jugador>().movimientoActivo();
+               GetComponent<ControladorCanvas>().DesactivarCanvas();
+               chatActivo = false;
            }
            
         }
-        if(chatBox.text != "")
+        // Si hay un mensaje para enviar
+        if(chat.text != "")
         {
             if(Input.GetKeyDown(KeyCode.Return))
             {
-                var jugador = GetComponent<PlayerMove>();
-                jugador.MandarMensaje(chatBox.text);
-
-                mensajeEnPantalla(chatBox.text);
-                chatBox.text = "";
+                // Obtengo la referencia del jugador y activo el metodo para mandar el mensaje
+                var jugador = GetComponent<Jugador>();
+                jugador.MandarMensaje(chat.text);
+                
+                // Ademas debo mostrat el mensaje por pantalla
+                MensajeEnPantalla(nombre +": " +chat.text);
+                chat.text = "";
             }
         }
         
     }
 
-    public void mensajeEnPantalla(string text)
+    // Voy agregando los mensajes en una lista, hasta una cierta cantidad
+    public void MensajeEnPantalla(string text)
     {
-
-        if(listaMensajes.Count >= max)
+        if(listaMensajes.Count >= maxMensajes)
         {
             Destroy(listaMensajes[0].textObject.gameObject);
             listaMensajes.Remove(listaMensajes[0]);
         }
+        Mensaje msj = new Mensaje();
 
-        Mensaje newMessage = new Mensaje();
-
-        newMessage.text = text;
-
-        GameObject newText = Instantiate(textObject, chatPanel.transform);
-     
-        newMessage.textObject = newText.GetComponent<Text>();
-
-        newMessage.textObject.text = newMessage.text;
-
-        listaMensajes.Add(newMessage);
+        msj.text = text;
+        GameObject texto = Instantiate(textObject, chatPanel.transform);
+        msj.textObject = texto.GetComponent<Text>();
+        msj.textObject.text = msj.text;
+        listaMensajes.Add(msj);
     }
-    
 }
 
-[System.Serializable]
-public class Mensaje 
-{
-    public string text;
-    public Text textObject; 
-}

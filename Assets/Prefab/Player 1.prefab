@@ -2637,7 +2637,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5878875697061947440}
   m_HandleRect: {fileID: 5878875697061947441}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -3953,12 +3953,12 @@ GameObject:
   - component: {fileID: 8750239557192397153}
   - component: {fileID: 6734293724411424753}
   - component: {fileID: 7567720110778173472}
-  - component: {fileID: 1702543942654071632}
   - component: {fileID: 4803702208930557832}
   - component: {fileID: 2924818913448879135}
   - component: {fileID: 2567790803773630258}
   - component: {fileID: 877219554701199631}
-  - component: {fileID: 1065682791348888090}
+  - component: {fileID: 2686655384576935370}
+  - component: {fileID: 8135506820241034829}
   m_Layer: 0
   m_Name: Player 1
   m_TagString: Untagged
@@ -4056,26 +4056,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1, z: 0}
---- !u!114 &1702543942654071632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9143203281115721526}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6948c74268274fc4ca60db692d1a50b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  controller: {fileID: 7567720110778173472}
-  speed: 2
-  rotationSpeed: 250
-  jumpSpeed: 8
-  gravity: 20
-  animator: {fileID: 2924818913448879135}
-  cam: {fileID: 8841941198019207199}
-  eventSystem: {fileID: 5878875698930025217}
 --- !u!114 &4803702208930557832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4141,10 +4121,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chatPanel: {fileID: 5878875697804623459}
   textObject: {fileID: 9163765735123646166, guid: 10a71302bcd9d74f79eaca424f02bb3b, type: 3}
-  chatBox: {fileID: 5878875697410412784}
-  messageList: []
-  max: 10
---- !u!114 &1065682791348888090
+  chat: {fileID: 5878875697410412784}
+  maxMensajes: 10
+  nombre: Sophie
+--- !u!114 &2686655384576935370
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4153,7 +4133,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 9143203281115721526}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38fd3e0950c55705bae1116a961bc0b0, type: 3}
+  m_Script: {fileID: 11500000, guid: d18c3f18744bd1c7c9f2e33a500c9f4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 7567720110778173472}
+  velocidad: 2
+  velocidadRotacion: 250
+  velocidadSalto: 8
+  gravity: 20
+  animator: {fileID: 2924818913448879135}
+  cam: {fileID: 8841941198019207199}
+  eventSystem: {fileID: 5878875698930025217}
+--- !u!114 &8135506820241034829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9143203281115721526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7cb8216b17ab20a0b8edb035835c15a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canvasObject: {fileID: 5878875697347641156}

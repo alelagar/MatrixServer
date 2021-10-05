@@ -1,23 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using MLAPI;
 using MLAPI.Messaging;
 
 public class LLuvia : NetworkBehaviour
 {
-
     public ParticleSystem lluvia;
 
-    private bool estado = false; 
-    public bool activar = false;
+    private bool estado; 
+    public bool activar;
 
+    
+    // Cuando inicio, no quiero que este lloviendo
     private void Awake() {
         lluvia.Stop();
     }
 
     public void Update() {
-        if(IsHost)
+        
+        if(IsServer)
         {
             //Si estaba prendido y quiero apagarlo
             if(estado && !activar)
@@ -35,16 +35,17 @@ public class LLuvia : NetworkBehaviour
             }
         }
     }
-
+    
+    //Se ejecuta en el cliente, activando la lluvia en todos al mismo tiempo
     [ClientRpc]
     private void ActivarLluviaClientRpc(){
         lluvia.Play();
     }
 
+    //Se ejecuta en el cliente, desactivando la lluvia en todos al mismo tiempo
     [ClientRpc]
     private void DesactivarLluviaClientRpc(){
         lluvia.Stop();
     }
-
 
 }

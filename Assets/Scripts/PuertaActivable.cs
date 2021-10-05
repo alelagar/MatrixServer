@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using MLAPI;
 public class PuertaActivable : NetworkBehaviour
@@ -9,19 +7,16 @@ public class PuertaActivable : NetworkBehaviour
 
     public void Activar()
     {
-
-            if (!abierta)
-            {
-                puerta.transform.Rotate(0,-80,0);
-                abierta= true;
-            }
-
-            else
-            {
-                puerta.transform.Rotate(0,80,0);
-                abierta=false;    
-            }
-
+        if (!abierta)
+        {
+            puerta.transform.Rotate(0,-80,0);
+            abierta= true;
+        }
+        else
+        {
+            puerta.transform.Rotate(0,80,0);
+            abierta=false;    
+        }
     }
 
 
